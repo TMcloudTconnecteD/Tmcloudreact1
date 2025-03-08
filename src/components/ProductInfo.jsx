@@ -15,13 +15,13 @@ const ProductInfo = () => {
 
 };
 
-const Product = (props) => {
+const Product = ({name, price, status}) => {
   return (
     <div>
         <h3>Alvin Shop</h3>
-        <h5>Item: {props.name}</h5>
-        <h5>Price: KES {props.price}</h5>
-        <h5>Status: {props.status}</h5>
+        <h5>Item: {name}</h5>
+        <h5>Price: KES {price}</h5>
+        <h5>Status: {status}</h5>
         
         </div>
   )

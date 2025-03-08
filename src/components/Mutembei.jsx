@@ -12,7 +12,7 @@ const Mutembei = () => {
         img = "c:\Users\ADMN\Pictures\Saved Pictures\coursera\loho.jpg"
         name="Hillary Mutembei"
         age={25}
-        isMarried={false}
+        isMarried= {false}
         hobbies={['Reading, ', 'Writing, ', 'Actualizing.']}
         
         />  
@@ -31,11 +31,11 @@ return (
                 <h4>Age: {props.age}</h4>
                 <h5>Status: {props.isMarried}</h5>
                 <h5>Hobbies: {props.hobbies}</h5>
-                <h5>Date: {date.getDate()}/ {date.getMonth()}/ {date.getFullYear()}. {date.getHours()}:{date.getMinutes()}:{date.getSeconds()}- {date.getMilliseconds()}: </h5>
+                <h5>Date: {date.getDate()}/ {date.getMonth()+1}/ {date.getFullYear()}. {date.getHours()}:{date.getMinutes()}:{date.getSeconds()}- {date.getMilliseconds()}: </h5>
                 <p><i>I just realised computers are not perfect. 
-                        its feb yet getMonth() returns January. <br />
+                        its feb yet getMonth() returns January. One month behind. <br />
                         For the sake of my record, <br />
-                        This masterpiece was engineered in <b>Feb 26 2025.</b></i></p>
+                        This masterpiece was first engineered in <b>Feb 26 2025.</b></i></p>
          </section>
 )
 };

@@ -4,7 +4,7 @@ const ProductList = () => {
 
 const products = [
     { id: 1, name: 'phone', price:'15000'},
-    { id: 2, name: 'homebank', price:'5000'},
+    { id: 2, name: 'Homebank', price:'5000'},
     { id: 3, name: 'laptop', price:'70000'},
 
 

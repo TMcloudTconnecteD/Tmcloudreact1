@@ -26,17 +26,17 @@ const UserInfo = () => {
 
 return (
     <div>
- {usersinfo.map(user =>
- <ul key={Math.random()}>
-  <li>{user.username}</li>
-  <li>{user.email}</li>
-  <li>{user.location}</li>
+ {usersinfo.map(user => 
+                  <ul key={Math.random()}>
+                      <li>{user.username}</li>
+                      <li>{user.email}</li>
+                      <li>{user.location}</li>
 
- </ul>
+                  </ul>
 
 
-
- )}
+ )
+ }
 
 
     </div>
